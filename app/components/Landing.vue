@@ -2,9 +2,9 @@
   <canvas ref="canvas" :style="{ width: '100%', height: '100%' }"></canvas>
   <div class="logo">
     <picture class="object-center">
-      <source srcset="/images/WordWide.svg" media="(max-width: 200px)">
-      <source srcset="/images/WordStack.svg" media="(max-width: 1200px)">
-      <img src="/images/WordWide.svg" alt="Diskette Kitchen" style="width:auto;">
+      <source srcset="/WordWide.svg" media="(max-width: 200px)">
+      <source srcset="/WordStack.svg" media="(max-width: 1200px)">
+      <img src="/WordWide.svg" alt="Diskette Kitchen" style="width:auto;">
     </picture>
     <a class="object-center" href="https://diskettekitchen.com">
       <ActionButton title="Back Home" class="flex m-auto mt-10"/>
