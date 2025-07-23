@@ -2,7 +2,7 @@
 const { title, description, image } = useAppConfig()
 
 useSeoMeta({
-  title: `${title} - ${description}`,
+  title: `Diskette://Link`,
   description,
   ogType: 'website',
   ogTitle: title,
